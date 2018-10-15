@@ -1,0 +1,277 @@
+/*ipad version*/
+
+@media only screen 
+and (min-device-width:768px) 
+and (max-device-width:1024px){
+
+.card-header{
+	font-size: 35px;
+}
+
+
+#mobile-non-carousel{
+	display: block !important;
+}
+
+ .new-cons-slide, .new-cons-slide-1,.mobile-del{
+ 	display: none;
+ }
+
+/*#sizer{
+	pointer-events: none !important;
+}*/
+.my-4{
+	font-size: 30px;
+}
+
+#index-background-p{
+	margin-left: -120px;
+	margin-right: -120px;
+}
+
+#rem-size{
+	height:auto !important;
+	/*width:auto !important;*/
+   width: 100% !important;
+   pointer-events: none;
+}
+
+.navbar-nav .open .dropdown-menu{
+	background-color: #fff !important;
+}
+
+.navbar-collapse .collapse .in .show{
+	display:none !important;
+}
+
+.navbar-toggler .navbar-toggler-righta[aria-expanded="true"]{
+  background-color: #42DCA3;
+}
+
+#com-img-back, #new-img-back, #rem-img-back,#rem-size-1,#rem-size,#interlaken,#belmar,#mary,#deal{
+	height: auto;
+	width: auto;
+	}
+
+
+#new-cons-row{
+	margin-right: -15px !important;
+	margin-left: -15px !important;
+	display: block !important;
+	/*display:none !important;*/
+}
+
+/*#new-cons-row-1{
+	display: block !important;
+}*/
+
+#rem-size{
+	width: 100%;
+}
+
+.navbar{
+	/*position: fixed;*/
+	/*background: rgba(65, 76, 92, 0.7) !important;*/
+	/*background-color: transparent !important;*/
+	background: rgb(44, 91, 143) !important;
+}
+
+header{
+	margin-top:-22px;
+}
+
+
+h4{
+	margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h1{
+	font-size: 28px;
+}
+
+#main-logo{
+	margin-bottom: 30px;
+}
+
+p,li{
+	font-size: 18px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+#top{
+	margin-top: 30px;
+	/*font-size: 30px !important;*/
+}
+
+#center-gold-img{
+	font-size: 60px !important;
+}
+
+#contact-img{
+	display: none;
+}
+
+.index-text{
+	text-shadow: 5px 5px 5px black;
+	 -webkit-text-stroke:.3px black;
+	  font-size: 26px;
+}
+
+#index-background-p{
+background-color: rgba(0, 0, 0, 0.3);
+/*margin-right: -120px !important;
+margin-left: -120px !important;*/
+}
+
+#margin-botton-li{
+	margin-bottom: 10px;
+}
+
+#logo{
+height:auto !important;
+margin-top: 0px !important;
+/*background-size: 40% !important;*/
+}
+
+.margin-bottom-new-con{
+	margin-bottom: 1.5rem;
+}
+
+.nav-list{
+	font-size: 22px !important;
+}
+
+#disapear{
+	display: none;
+}
+
+.col-lg-4,.col-lg-6{
+	max-width: 100%;
+}
+.row{
+	display: initial;
+	margin-top: 20px;
+	margin-right: -15px;
+    margin-left: -15px;
+	}
+
+/*	.col-lg-4, .mb-4{
+	margin-top: 40px !important;
+}*/
+.col-md-3,.margin-bottom-new-con{
+	max-width: 100%;
+	width:100% !important;
+}
+
+.nav-list{
+	margin-top: 10px;
+}
+
+}
+
+/*IPAD PORTRAIT*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+
+#nav-logo{
+	display: none;
+}
+
+	
+p,li{
+	font-size: 24px;
+}
+.navbar-collapse.collapse {
+display: none!important;
+}
+
+.navbar-collapse.collapse.in { 
+display: block!important;
+}
+
+.navbar{
+    padding-bottom: 32px;
+}
+
+#nav-title{
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+.navbar-toggler-icon{
+height: 3.5em;
+width: 3.5em;
+}
+
+.navbar-dark .navbar-toggler{
+position: relative;
+bottom: -13px;
+left: 120px;
+
+}
+
+#index-background-p{
+background-color: transparent;
+}
+
+.nav-list{
+font-size: 35px !important;
+margin-top:25px !important;
+}
+
+#ipad-view{
+display: inherit;
+}
+
+#logo{
+height:auto !important;
+margin-top: 0px !important;
+background-size: 40% !important;
+}
+
+#disapear{
+display: none;
+}
+
+.col-md-3,.margin-bottom-new-con{
+max-width: 100%;
+}
+
+.col-md-6,.col-md-7,.col-md-5{
+max-width: 100%;
+}
+
+#about-history{
+	margin-top: 50px;
+}
+}
+
+
+/*IPAD LANSCAPE*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+form,#button1{
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.ipad-sizer{
+width: 100%;
+}
+
+
+
+} 
+
+/*ENLARGE NAVBAR*/
+@media (max-width: 991px){.navbar-expand-lg>.container{margin-bottom: 5px;}}
+/*SCREENS WIDER THAN 1000*/
+/*@media only screen and (min-device-width : 1000px){#logo{ margin-top: 30px;} .index-text{font-size: 30px !important;}}*/

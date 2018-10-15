@@ -1,0 +1,189 @@
+/*IPHONE*/
+@media only screen 
+and (min-device-width:320px) 
+and (max-device-width:667px){
+
+#mobile-non-carousel{
+	display: block !important;
+}
+
+
+
+
+ .new-cons-slide, .new-cons-slide-1,.mobile-del{
+ 	display: none;
+ }
+
+
+#socialmedia{
+	display: block;
+	margin-bottom: 20px;
+    margin-top: -20px;
+    margin-left: 150px;
+}
+
+.social span {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 15px !important;
+    color: white;
+	position: relative;
+	top: 50px;
+	font-size: 15px;
+}
+
+.footer-li{
+  list-style: none outside none;
+}
+
+/*.footer-li{
+  margin-left: 50px;
+}*/
+
+
+
+
+#nav-logo-4{				/* footer logo*/
+	display: block;
+	width:17% !important;
+	margin-left: 170px;
+	border-radius: 50%;
+}
+
+#nav-logo,#nav-logo-2{display: none;}   /* nav logo disappear*/
+
+
+nav{
+		padding-bottom: 10px;
+	}
+
+	#rem-size{
+		   height: initial !important;
+			/*width: initial !important;*/
+			width: 100%;
+			pointer-events: none;
+	}
+
+		#disapear{
+				display: none !important;
+			}
+
+		.navbar-nav .open .dropdown-menu{
+			background-color: #fff !important;
+		}
+
+		.navbar-collapse .collapse .in .show{
+			display:none !important;
+		}
+
+		.navbar-toggler .navbar-toggler-righta[aria-expanded="true"]{
+		  background-color: #42DCA3;
+		}
+
+		#com-img-back, #new-img-back, #rem-img-back,#rem-size-1,#interlaken,#belmar,#mary,#deal{
+			height: auto !important;
+			width: auto !important;
+			}
+
+		#new-cons-row{
+			margin-right: -15px !important;
+			margin-left: -15px !important;
+			display: block;
+			display: inherit !important;
+		}
+
+		
+		/*#new-cons-row-1{
+		display: block !important;
+		}*/
+
+		#rem-size{
+			width: 100%;
+		}
+
+		.navbar{
+			background: rgb(44, 91, 143) !important;
+		}
+
+		#nav-title{
+			font-size: 20px !important;
+			text-shadow: 2px 2px 2px black;
+		}
+
+		header{
+			margin-top:-22px;
+		}
+
+
+		h4{
+			margin-top: 5px;
+		    margin-bottom: 5px;
+		}
+
+		h1{
+			font-size: 28px;
+		}
+
+
+		#mobile-margin{
+			margin-top: 50px;
+		}
+
+		#top{
+			margin-top: 30px;
+		}
+
+		#contact-img{
+			display: none;
+		}
+
+		.index-text, .about-background-text{
+			text-shadow: 5px 5px 5px black;
+			font-family: 'EB Garamond', serif;
+		}
+
+		.index-text{
+			font-size: 24px !important;
+			margin-left: 20px;
+		    margin-right: 20px;
+		}
+
+		#index-background-p{
+		background-color: rgba(0, 0, 0, 0.3);
+		}
+
+		#margin-botton-li{
+			margin-bottom: 10px;
+		}
+
+		#logo{
+		height:auto !important;
+		margin-top: 0px !important;
+		background-size: 40% !important;
+		}
+
+		.margin-bottom-new-con{
+			margin-bottom: 1.5rem;
+		}
+
+	#footer{
+		background-color: #444 !important;
+	}
+
+		
+
+}
+
+
+/*IPHONE LANDSCAPE*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) {
+
+	#index-background-p{
+		margin-left: -120px !important;
+		margin-right: -120px !important;
+		background-color: transparent!important;
+		}
+}

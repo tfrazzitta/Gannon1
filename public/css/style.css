@@ -1,0 +1,638 @@
+
+body,
+html {
+  padding: 0;
+  zoom:80%;
+ /* height: 100%*/;
+ /* height: auto;*/
+}
+
+/*html,body{
+	background: url('/logo/background.jpg')
+	no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    overflow: auto;
+
+}
+
+body{
+	height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+*/
+html{
+	background: url('/logo/background-1.jpg') 
+	no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+  	/*zoom:80%;*/
+
+
+}
+
+body{
+	background:transparent;
+	height: 100%;
+    margin: 0;
+    /*overflow: auto;*/
+   overflow-y: scroll; 
+  -webkit-overflow-scrolling: touch;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	border-top:5px solid black;
+	/*position:absolute;*/
+    bottom:0;
+   	width: 100%;
+}
+
+header{
+	margin-top: -22px;
+}
+
+
+label{
+	font-size:18px;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	 -webkit-text-stroke:.3px black;
+}
+
+h4{
+font-family: 'Alegreya SC', serif;
+font-size: 24px;
+}
+
+
+h3,h1,h2{
+	font-family: 'Alegreya SC', serif;
+}
+
+button{
+	color: white!important;
+    background-color: rgba(0, 0, 0, 0.3)!important;
+    box-shadow: 5px 5px 5px black!important;
+}
+
+#error-form-replace, .page-header{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	 -webkit-text-stroke:.3px black;
+}
+
+.about-background-text,#about-margin-p{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	font-size: 22px;
+	font-family: 'EB Garamond', serif;
+/*	 -webkit-text-stroke:.3px black;*/
+	 background-color: rgba(0, 0, 0, 0.3);
+	 /*background-color:black;*/
+}
+
+#about-center-logo{
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+	 -webkit-text-stroke:.3px black;
+	 
+
+}
+
+#about-history{
+	margin-top: 10px;
+}
+
+#about-testimonial-img{
+	border: 7px solid white;
+	margin-top: 10px;
+}
+
+
+.about-margin-p{
+	margin-left: 20px;
+	margin-right: 20px;
+	text-indent: 20px;
+}
+
+a{
+	color:lightgrey;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+
+
+.about-logo{
+	color: white;
+	text-shadow: 10px 10px 10px black;
+	 -webkit-text-stroke:.3px black;
+}
+
+.disabled {
+    z-index: 1000;
+    background-color: lightgrey;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+
+#com-img-back, #new-img-back, #rem-img-back, #rem-size,#rem-size-1,#interlaken,#belmar,#mary,#interlakern,#deal {
+height: 250px;
+width: 320px;
+}
+
+.card, .h-100,header{
+	box-shadow: 10px 10px 10px black;
+}
+
+.carousel-item{
+		height: 70vh;
+}
+
+.card-body:hover {
+    /*filter: alpha(opacity=100);*/ /* For IE8 and earlier */
+    opacity: .8 !important;
+    font-weight: bold;
+
+}
+
+
+#myModal2{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  overflow: none;
+  transform: translate(-50%, -50%);
+/*  width: 40%;*/
+  height: 50%;
+  overflow:hidden;
+*/
+}
+/*#img01{
+	zoom:60%;
+}*/
+
+.form-control,#button1{
+	box-shadow: 2px 2px 2px black;}
+
+
+
+.nav-list{
+font-family: 'Alegreya SC', serif;
+font-size: 24px;
+/*color: lightgrey;*/
+color: white;
+}
+
+
+.card-header{
+	 background-color: #5180a8;
+	 color: white;
+	/* text-shadow: 2px 2px 2px black;*/
+}
+
+#main-logo{
+	font-family: 'Alegreya SC', serif; 
+	font-size: 60px;
+	text-shadow: 5px 5px 5px gold;
+	color:white;
+
+}
+#nav-bar-logo{
+	margin-top: -20px;
+}
+
+/*#nav-bar-logo:hover,h4:hover{
+color: gold !important;
+}*/
+
+#nav-bar-logo:hover{
+/*color: gold !important;*/
+text-shadow: 2px 2px 2px gold;
+}
+
+
+.index-text{
+	font-size: 30px;
+	text-align: center;
+	font-family: 'EB Garamond', serif; 
+	color:white;
+	text-shadow: 3px 3px 3px black;
+	 /*-webkit-text-stroke:.3px black;*/
+}
+
+.dropdown-size{
+	font-size: 24px;
+	font-family: 'EB Garamond', serif; /*   text-indent: 50px;*/
+}
+
+
+#new-cons-row,#new-con-label{
+	margin-right:-120px;
+	margin-left:-120px;
+}
+
+
+#mobile-margin{
+	margin-top: -20px;
+}
+
+.navbar-toggler-icon{
+	background-color: black;
+
+}
+
+
+.navbar-dark .navbar-toggler{
+background-color: gold;
+/*position: fixed;*/
+}
+
+.bg-dark{
+	background-color: #5180a8!important;
+	opacity: .9;
+	box-shadow: 10px 10px 10px black;
+}
+
+
+#center-gold-img,#head{
+	font-family: 'Alegreya SC', serif;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px gold !important;
+    color: white;
+}
+
+.my-4{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+		/*outside links in remodel,recon,commercial*/
+}
+
+.my-4:hover{
+	color: yellow;
+	/*box-shadow: 5px 5px 5px black !important;*/
+/*	border-radius: 50% !important;
+	background-color: lightgrey !important;
+	border:3px solid black;*/
+
+}
+
+
+#logo{
+background-size:25%;
+margin-top:-30px;
+height: auto;
+}
+
+
+
+#nav-logo{
+	position: absolute;
+    margin-left: 5px;
+    margin-top: -45px;
+    top: 75%;
+    left: 3%;
+    opacity: 1;
+    z-index: 1000;
+    height: 50%
+}
+
+ 
+
+.tooltip {
+  font-size:17px;
+}
+.tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color:#5180a8;
+  text-align: center;
+  font-weight: bold;
+  background-color: white !important;
+  border-radius: 4px;
+  font-family: 'Alegreya SC', serif;
+}
+
+#nav-logo-2{
+	margin-left: -300px;
+    padding-bottom: 20px;
+    font-size: 20px;
+
+}    
+/*this is for the hover*/
+
+.dropdown-size{
+	font-family: 'Alegreya SC', serif;
+}
+
+
+
+#socialmedia{
+    display: none;
+}
+
+
+
+#about-background-text{
+	font-family: 'EB Garamond', serif;
+}
+
+
+.slider,.slider-1{
+  position: relative;
+ /* top:200px;*/
+  opacity: .8;
+}
+
+
+.slider:active, .slider-1:active {
+opacity: .3;
+}
+
+
+#back-to-top, #back-to-top:active{
+	border-radius: 50%
+}
+
+
+#back-to-top:active{
+	border:none;
+}
+
+
+#mobile-non-carousel{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+/*#new-cons-row-1{
+	display: none;
+}*/
+/*///////////////////////END OF MAIN STYLES/////////////////////////////////*/
+
+
+
+
+/*/*ipad version*/
+/*
+@media only screen and (min-device-width:768px) and (max-device-width:1024px){
+
+	.my-4{
+		font-size: 30px;
+	}
+
+	#index-background-p{
+		margin-left: -120px;
+		margin-right: -120px;
+	}
+
+	#rem-size{
+		height:auto !important;
+	   width: 100% !important;
+	}
+
+
+.navbar-nav .open .dropdown-menu{
+	background-color: #fff !important;
+}
+
+.navbar-collapse .collapse .in .show{
+	display:none !important;
+}
+
+.navbar-toggler .navbar-toggler-righta[aria-expanded="true"]{
+  background-color: #42DCA3;
+}
+
+#com-img-back, #new-img-back, #rem-img-back,#rem-size-1,#rem-size,#interlaken,#belmar,#mary{
+	height: auto;
+	width: auto;
+	}
+
+
+#new-cons-row{
+	margin-right: -15px;
+	margin-left: -15px;
+	display: block;
+}
+#rem-size{
+	width: 100%;
+}
+
+.navbar{
+	background: rgb(44, 91, 143) !important;
+}
+
+header{
+	margin-top:-22px;
+}
+
+
+h4{
+	margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h1{
+	font-size: 28px;
+}
+
+#main-logo{
+	margin-bottom: 30px;
+}
+
+p,li{
+	font-size: 18px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+#top{
+	margin-top: 30px;
+}
+
+#center-gold-img{
+	font-size: 60px !important;
+}
+
+#contact-img{
+	display: none;
+}
+
+.index-text{
+	text-shadow: 5px 5px 5px black;
+	 -webkit-text-stroke:.3px black;
+	  font-size: 26px;
+}
+
+#index-background-p{
+background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+#margin-botton-li{
+	margin-bottom: 10px;
+}
+
+#logo{
+height:auto !important;
+margin-top: 0px !important;
+}
+
+.margin-bottom-new-con{
+	margin-bottom: 1.5rem;
+}
+
+.nav-list{
+	font-size: 22px !important;
+}
+
+#disapear{
+	display: none;
+}
+
+.col-lg-4,.col-lg-6{
+	max-width: 100%;
+}
+.row{
+	display: initial;
+	margin-top: 20px;
+	margin-right: -15px;
+    margin-left: -15px;
+	}
+
+	.col-lg-4, .mb-4{
+	margin-top: 40px !important;
+}
+.col-md-3,.margin-bottom-new-con{
+	max-width: 100%;
+	width:100% !important;
+}
+
+.nav-list{
+	margin-top: 10px;
+}
+
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+
+        .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+
+        .navbar{
+    	    padding-bottom: 32px;
+    }
+
+     #nav-title{
+    	    font-size: 40px;
+    	    line-height: 1.5;
+    }
+
+    .navbar-toggler-icon{
+    	height: 3.5em;
+    	width: 3.5em;
+    }
+
+    .navbar-dark .navbar-toggler{
+   		position: relative;
+	    bottom: -13px;
+	    left: 120px;
+
+    }
+
+    #index-background-p{
+		background-color: transparent;
+    }
+
+	.nav-list{
+		font-size: 35px !important;
+		margin-top:25px !important;
+	}
+
+	#ipad-view{
+		display: inherit;
+	}
+
+	#logo{
+	height:auto !important;
+	margin-top: 0px !important;
+	background-size: 40% !important;
+	}
+
+	#disapear{
+	display: none;
+	}
+
+	.col-md-3,.margin-bottom-new-con{
+	max-width: 100%;
+	}
+
+	.col-md-6{
+	max-width: 100%;
+	}
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	
+	form,#button1{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+	.ipad-sizer{
+		width: 100%;
+	}
+
+} 
+
+@media (max-width: 991px){.navbar-expand-lg>.container{margin-bottom: 5px;}}
+
+@media only screen and (min-device-width : 1000px){#logo{ margin-top: 30px;} .index-text{font-size: 30px !important;}}*/
