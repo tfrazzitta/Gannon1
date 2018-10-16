@@ -36,7 +36,7 @@
      margin-right: 100px;
     margin-left: -100px;
     display:-webkit-box;
-  
+
   }
 
   .new-cons-slide, .new-cons-slide-1{
@@ -50,6 +50,11 @@
 #mobile-non-carousel{
   display: none;
 }
+
+ .inner-row{
+     /*   margin-left: -36px;*/
+    display: -webkit-inline-box !important;
+  }
 
   </style>
   </head>
@@ -102,12 +107,14 @@
       
       
      <div class="row">
+
        <div class="col-lg-4 mb-4" id="top"><a href="/commercial-page"><h3 class="my-4 text-center">Commercial</h3></a></div>
        <div class="col-lg-4 mb-4"><h1 class="my-4 text-center" id="center-gold-img">New Construction</h1></div>
        <div class="col-lg-4 mb-4"><a href="/remodel-page"><h3 class="my-4 text-center">Remodel</h3></a></div>
      </div>
 <!-- MOBILE VERSION -->
       <div class="row" id="new-cons-row">
+      <div class="inner-row">
 
  <div class="col-lg-1 mobile-del"><img class="img-responsive new-cons-slide-1" src="logo/left.png" alt=""></div>
 
@@ -150,7 +157,7 @@
       </div>
 
       <div class="col-lg-1 mobile-del"><img class="img-responsive new-cons-slide" src="logo/right.png" alt=""></div>
-    </div>
+    </div></div>
 <!-- MOBILE VERSION END -->
 
       <h1 id="head" class="text-center"></h1>
@@ -166,7 +173,7 @@
       <div class="col-lg-4 mb-4"><button class="text-center" id="back-to-top">Back to top</button></div>
       <div class="col-lg-4 mb-4"></div>
     </div>
-  </div>
+  <!-- </div> -->
 <!-- </div> -->
      <footer class="py-5 bg-dark">
       <div class="container">
