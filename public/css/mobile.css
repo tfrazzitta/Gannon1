@@ -8,6 +8,9 @@ and (max-device-width:667px){
 }
 
 
+.inner-row{
+	display: block !important;
+}
 
 
  .new-cons-slide, .new-cons-slide-1,.mobile-del{
@@ -89,7 +92,7 @@ nav{
 			margin-right: -15px !important;
 			margin-left: -15px !important;
 			display: block;
-			display: inherit !important;
+			/*display: inherit !important;*/
 		}
 
 		
@@ -186,4 +189,6 @@ and (orientation : landscape) {
 		margin-right: -120px !important;
 		background-color: transparent!important;
 		}
+
+
 }
