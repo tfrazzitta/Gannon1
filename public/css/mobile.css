@@ -91,7 +91,7 @@ nav{
 		#new-cons-row{
 			margin-right: -15px !important;
 			margin-left: -15px !important;
-			display: block;
+			display: block !important;
 			/*display: inherit !important;*/
 		}
 
