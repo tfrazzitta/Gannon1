@@ -197,6 +197,13 @@ width: 320px;
 	zoom:60%;
 }*/
 
+#button1{
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Alegreya SC', serif;
+    font-weight: bold;
+}
+
 .form-control,#button1{
 	box-shadow: 2px 2px 2px black;}
 

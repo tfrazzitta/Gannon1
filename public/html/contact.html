@@ -85,8 +85,9 @@
       <div class="col-lg-1 mb-4"></div>
       <div class="col-lg-6 mb-4" id="contact-ipad">
         <h3 id ="error-form-replace" class="text-center">Send us a Message</h3><br>
-        
-        <form name="sentMessage" id="contactForm" novalidate action="" method="POST">
+      
+      <form action="https://formspree.io/JGannon715@gmail.com" method="POST">
+        <!-- <form name="sentMessage" id="contactForm" novalidate action="" method="POST"> -->
           <div class="control-group form-group">
             <div class="controls">
               <label>Full Name:</label>
@@ -111,12 +112,15 @@
               <label>Message:</label>
               <textarea rows="10" cols="100" class="form-control" id="comment-input" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
               <input type="text" name="_gotcha" style="display:none" />
-              <input type="hidden" name="_next" value="/contact"/>
+              <input type="hidden" name="_next" value="/"/>
+              <input type="submit" value="Send" id="button1">
+
             </div>
           </div>
+           <!--  <button class="btn btn-default" id="button1" type="submit" value="Send">Submit</button> -->
           <div id="success"></div>
         </form>
-        <button class="btn btn-default" id="button1" type="submit" value="Send">Submit</button>
+<!--         <button class="btn btn-default" id="button1" type="submit" value="Send">Submit</button> -->
         <div id="alert-display"></div>
       </div>
     </div>
@@ -171,9 +175,21 @@ and (orientation : portrait) {
   }
 }
  </style>
-  <script src="java/contact_me.js"></script>
+ <script>
+  //  $('form').submit(function(event) {
+  // //$("#error-email-message").html("");
+  // event.preventDefault();
+  //             var formObj = document.getElementById("form");
+  //             formObj.submit();
+  
+  // })
+
+
+ </script>
+<!--   <script src="java/contact_me.js"></script> -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/popper/popper.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
+
