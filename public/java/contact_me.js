@@ -18,7 +18,7 @@
   else{
   $("#error-form-replace").html("");
   $.ajax({
-  url: "https://formspree.io/tfrazzitta@yahoo.com",
+  url: "https://formspree.io/f/jgannon715@gmail.com",
   method: "POST",
   data: {
   name: name,
