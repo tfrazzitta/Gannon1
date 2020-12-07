@@ -1,4 +1,32 @@
 
+
+
+html{
+	background: url('/logo/background-1.jpg') 
+	no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+  	/*zoom:80%;*/
+
+
+}
+
+body{
+	background:transparent;
+	height: 100%;
+    margin: 0;
+    /*overflow: auto;*/
+   overflow-y: scroll; 
+  -webkit-overflow-scrolling: touch;
+}
+
+
+
 body,
 html {
   padding: 0;
@@ -27,28 +55,28 @@ body{
     overflow: auto;
 }
 */
-html{
-	background: url('/logo/background-1.jpg') 
-	no-repeat center center fixed;
+/*html{*/
+	/*background: url('/logo/background-1.jpg') 
+	no-repeat center center fixed;*/
 /*	background-size: cover;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;*/
-    height: 100%;
+  /*  height: 100%;
     overflow: hidden;
-    padding: 0;
+    padding: 0;*/
   	/*zoom:80%;*/
 
+/*
+}*/
 
-}
-
-body{
+/*body{
 	background:transparent;
 	height: 100%;
     margin: 0;
    overflow-y: scroll; 
   -webkit-overflow-scrolling: touch;
-}
+}*/
 
 
 

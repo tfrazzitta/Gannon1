@@ -6,15 +6,20 @@
  /* height: 100%;*/
 }
 
+#img01{
+    height:100% !important;
+    width:100% !important;
+}
+
 /*#myModal2{
     height: : 627.387px;
     width: 471.029px;
     
 }*/
-.col-lg-1,#img01{
+/*.col-lg-1,#img01{
     height: 400px;
-    
-}
+    */
+/*}*/
 
 #myImg {
     border-radius: 5px;
