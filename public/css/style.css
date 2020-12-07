@@ -30,10 +30,10 @@ body{
 html{
 	background: url('/logo/background-1.jpg') 
 	no-repeat center center fixed;
-	background-size: cover;
+/*	background-size: cover;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
     height: 100%;
     overflow: hidden;
     padding: 0;
@@ -46,7 +46,6 @@ body{
 	background:transparent;
 	height: 100%;
     margin: 0;
-    /*overflow: auto;*/
    overflow-y: scroll; 
   -webkit-overflow-scrolling: touch;
 }
